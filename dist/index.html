@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <link rel="stylesheet" href="./css/iconfont.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/swiper.css">
+		<script type="text/javascript">
+            document.documentElement.style.fontSize = document.documentElement.clientWidth  /  3.75 + 'px';
+        </script>
+        <title>xiechengwang</title>
+        </head>
+<body>
+    <header>
+        <form action="">
+                <input type="text" placeholder="搜索/目的地/酒店/景点/航班号">
+        </form>
+        <a href="#">
+            <i class="iconfont icon-wode"> </i>
+            <span>我的</span>
+        </a>
+    </header>
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" ><img src="./img/banner1.jpg" alt=""></div>
+                <div class="swiper-slide" ><img src="./img/banner2.jpg" alt=""></div>
+                <div class="swiper-slide" ><img src="./img/banner1.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+    </div>
+    <div class="nav">
+        <a href="#">
+            <span class="img"></span>
+            <span>旅游*景点</span>
+        </a>
+        <a href="#" >
+            <span class="img"></span>
+            <span>旅游*景点</span>
+        </a>
+        <a href="#">
+            <span class="img"> </span>
+            <span>旅游*景点</span>
+        </a>
+        <a href="#">
+            <span class="img"></span>
+            <span>旅游*景点</span>
+         </a>
+        <a href="#">
+            <span class="img"></span>
+            <span>旅游*景点</span>
+        </a>
+    </div>
+    <div class="g-nav">
+       <table>
+            <tr>
+                    <td>酒店</td>
+                    <td>民宿</td>
+                    <td colspan="2">机票*火车票</td>
+             
+                </tr>
+                <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+       </table>
+    </div>
+    <div class="t-nav">
+        <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>自由行</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>WiFi电话卡</span>
+        </a>
+        <a href="#">
+                <i class="iconfont icon-feiji"></i>
+                <span>保险 签证</span>
+            </a>
+        <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>换钞 购物</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>当地向导</span>
+        </a>
+         <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>特价机票</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>礼品卡</span>
+            </a>
+        <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>申卡 借钱</span>
+            </a>
+        <a href="#">
+            <i class="iconfont icon-feiji"></i>
+            <span>旅拍</span>
+            </a>
+        <a href="#">
+            <i class="iconfont icon-feiji"> </i>
+            <span>更多</span>
+            </a>
+    </div>      
+    <div class="baokuan">
+        <p></p>
+    </div>
+</body>
+</html>
+<script src="./lib/jquery1.12.4.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container',{
+        loop:true,
+        speed:300,
+        autoplay : {
+          delay:3000
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  }
+})
+        
+        //如果你初始化时没有定义Swiper实例，后面也可以通过Swiper的HTML元素来获取该实例
+
+</script>
