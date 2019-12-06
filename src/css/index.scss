@@ -16,7 +16,7 @@ header{
     justify-content: space-around;
     position: fixed;
     top: 0;
-    z-index: 99;
+    z-index: 999;
   input{
       width: 3.12rem;
       height: 0.28rem;
@@ -136,5 +136,65 @@ header{
 }
 .baokuan{
     width: 3.75rem;
-    height: 2.33rem;
+    overflow: hidden;
+    margin-top: 1.3rem;
+    box-sizing: border-box;
+   
+    p{
+        
+        height: .44rem;
+        .s1{
+            float: left;
+            margin-left: .1rem;
+        }
+        .s2{
+            float: right;
+            a{
+                display: block;
+                width: 0.54rem;
+                height: 0.2rem;
+                border-radius: .8rem;
+                background: red;
+                color: #Fff;
+                text-align: center;
+                text-decoration: none;
+                margin-right: .1rem;
+            }
+        }
+    }
+    .box-left{
+        float: left;
+        background: #f9f9f9;
+        width: 1.6rem;
+        height: 1.75rem;
+        margin-left: .1rem;
+    }
+    .box-wrap{
+        width: 1.79rem;
+        height: 1.79rem;
+        float: left;
+        margin-left: .08rem;
+        
+        .r-b1{
+            background: #f9f9f9;
+            width: 1.77rem;
+            height: 0.7rem;
+        }
+       
+        .r-b2{
+            margin-top: .05rem;
+            width: 0.88rem;
+            height: 1.04rem;
+            background: #f9f9f9;
+            float: left;
+        }
+        .r-b3{
+            margin-top: .05rem;
+            width: 0.88rem;
+            height: 1.04rem;
+            background: #f9f9f9;
+            float: right;
+        }
+    }
+
 }
